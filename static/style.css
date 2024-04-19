@@ -1,0 +1,78 @@
+/* Style the navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #800080;
+}
+
+/* Style the navigation bar links */
+.navbar li {
+    float: right;
+    margin-left: 40px; /* Increased margin between buttons */
+}
+
+
+.navbar li a {
+    display: block;
+    color: #800080;
+    text-align: center;
+    font-weight:bold;
+    padding: 14px 20px; /* Increased padding for better spacing */
+    text-decoration: none;
+    border: 1px solid none; /* Darker shade of sky blue */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffff00; /* Darker shade of sky blue */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for 3D effect */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Change the color of the navigation bar link on hover */
+.navbar li a:hover {
+    background-color: #BF40BF; /* Darker shade of hover color */
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    height: 92vh; /* Adjust the height as needed */
+    border: 2px solid #555454;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    height: 200vh; /* Adjust the height as needed */
+    border: 2px solid #555454;
+}
+
+.content {
+    margin-top: 60px;
+    text-align: justify;
+    padding: 20px;
+    font-size: large;
+}
+
+.content p{
+    font-size: larger;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: yellow; /* Background color for table headings */
+    font-weight: bold; /* Make table headings bold */
+}

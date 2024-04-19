@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Red Wine Quality</title>    
+    <link rel="stylesheet" type="text/css" href="static/style.css">  
+</head>
+<body>
+    <!-- Navigation bar -->
+    <ul class="navbar">
+        <li><a href="data">Data</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="/">Home</a></li>
+    </ul>
+    <h1>The Red Wine Quality Data</h1>
+    <p>We chose 7 attributes with 1 output variable for the ease of display.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Wine Index</th>
+                <th>pH</th>
+                <th>Residual Sugar</th>
+                <th>Sulphates</th>
+                <th>Density</th>
+                <th>Chlorides</th>
+                <th>Alcohol</th>
+                <th>Quality</th>   
+            </tr>
+        </thead>
+        <tbody>
+            {% for w in wine %}
+                <tr>
+                    <td>{{ w[0] }}</td>
+                    <td>{{ w[1] }}</td>
+                    <td>{{ w[2] }}</td>
+                    <td>{{ w[3] }}</td>
+                    <td>{{ w[4] }}</td>
+                    <td>{{ w[5] }}</td>
+                    <td>{{ w[6] }}</td>
+                    <td>{{ w[7] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
