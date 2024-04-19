@@ -9,11 +9,11 @@
 
 ### Home Page : Starts with a welcome message. The home page shows the information about the research paper from we which we took our red wine data. Background, findings and conclusion is given.
 ### About Page : Provides information about the dataset - an introduction, the attribute names, the attribute count, missing data and the number of instances. The citation is displayed on this page. 
-### Data Page : 
+### Data Page : Displays The Red Wine Quality Data.
 
 ## Installation
 
-### Clone the Repository: git clone https://github.com/aryakr2810/Wine-Data.git
+### Clone the Repository: git clone https://github.com/aryakr2810/Flask-Project-Wine-Data.git
 ### Install Dependencies: pip install -r requirements.txt
 ### Run the Application: flask run   
 
